@@ -4,6 +4,14 @@
 #This is a developmental feature and will be integrated to the main timer
 #Finally, the timer now shows count
 
+file="/alarm/alarm.mp3"
+
+current=$( pwd )
+dir="$current$file"
+
+xdg-open "$dir"
+
+
 function GetValues {
 
     echo "Enter Hours :"
