@@ -1,18 +1,29 @@
  #/usr/bin/zsh
 
- hour=0
- minute=1
- second=3
 
 #This is a developmental feature and will be integrated to the main timer
 #Finally, the timer now shows count
 
- while [[ $hour -ge 0 ]]
- do
-    while [[ $minute -ge 0 ]]
-    do
+function GetValues {
 
-        while [[ $second -ge 0 ]]
+    echo "Enter Hours :"
+    read hour
+
+    echo "Enter Minutes :"
+    read minute
+
+    echo "Enter Seconds :"
+    read second
+}
+
+function CountDown {
+
+     while [[ $hour -ge 0 ]]
+    do
+        while [[ $minute -ge 0 ]]
+        do
+
+            while [[ $second -ge 0 ]]
             do
 
                 clear
@@ -31,3 +42,7 @@
     minute=60
 
 done
+}
+
+GetValues
+CountDown
