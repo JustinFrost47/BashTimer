@@ -99,6 +99,7 @@ var=1
 
 while [ $var == 1 ]
 do
+    clear
     menu
 
     read choice
