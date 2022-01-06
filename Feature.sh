@@ -1,25 +1,23 @@
- #/usr/bin/bash
+ #/usr/bin/zsh
 
- hour=1
- minute=2
+ hour=0
+ minute=1
  second=3
 
- while [[ $hour>0 ]]
+
+ while [[ $hour -ge 0 ]]
  do
-    echo "$hour"
-
-    while [[ $minute>0 ]]
+    while [[ $minute -ge 0 ]]
     do
-        echo "$minute"
-
-        while [[ $second>0 ]]
+        while [[ $second -ge 0 ]]
             do
-                echo "$hour : $minute : $second"
+                echo "$hour h : $minute m : $second s"
                 second=$(( $second-1 ))
                 sleep 1s
-
             done
         minute=$(($minute-1))
-        second=60
+        second=5
     done
+    hour=$(( $hour-1 ))
+    minute=5
 done
