@@ -22,7 +22,7 @@ Note: make sure that git is installed . If it is not installed , install it usin
 #Running the script
 1. cd < Location where you cloned this repo >
 
-2. ./Timer  
+2. ./Timer.sh  
   
 #Changing alarm sound
 1. Get a .mp3 file of the music of your choice
