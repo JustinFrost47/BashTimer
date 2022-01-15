@@ -6,23 +6,34 @@ Vlc player
 Bash based shell (Bash or Zsh or fish🐟 ...etc)
 
 #Getting yourself a clone of Bash timer
-1. git clone https://github.com/JustinFrost47/BashTimer.git
+1.Installing git
+     
+     git clone https://github.com/JustinFrost47/BashTimer.git
 
 Note: make sure that git is installed . If it is not installed , install it using your package manager
     
    #Installing git
   1.Installing Git Ubuntu or  similair Debian based distros
+  
     sudo apt-get install git
+    
   2.Installing Git on CentOS
+  
     sudo yum install git
+    
   3.Installing Git on Arch Linux
+  
     sudo pacman -Sy git
 
 
 #Running the script
-1. cd < Location where you cloned this repo >
+1.getting to cloned directory
+        
+    cd < Location where you cloned this repo >
 
-2. ./Timer.sh  
+2. Executing timer script   
+        
+        ./Timer.sh  
   
 #Changing alarm sound
 1. Get a .mp3 file of the music of your choice
