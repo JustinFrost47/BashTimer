@@ -13,6 +13,7 @@ Bash based shell (Bash or Zsh or fish🐟 ...etc)
 Note: make sure that git is installed . If it is not installed , install it using your package manager
     
    #Installing git
+  
   1.Installing Git Ubuntu or  similair Debian based distros
   
     sudo apt-get install git
@@ -33,7 +34,7 @@ Note: make sure that git is installed . If it is not installed , install it usin
 
 2. Executing timer script   
         
-        ./Timer.sh  
+       ./Timer.sh  
   
 #Changing alarm sound
 1. Get a .mp3 file of the music of your choice
