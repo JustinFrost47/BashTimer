@@ -6,7 +6,6 @@ Vlc player
 Bash based shell (Bash or Zsh or fish🐟 ...etc)
 
 #Getting yourself a clone of Bash timer
-1.Installing git
      
      git clone https://github.com/JustinFrost47/BashTimer.git
 
@@ -28,7 +27,8 @@ Note: make sure that git is installed . If it is not installed , install it usin
 
 
 #Running the script
-1.getting to cloned directory
+
+1.Getting to cloned directory
         
     cd < Location where you cloned this repo >
 
