@@ -1,9 +1,10 @@
 # BashTimer
 A very simple Timer built using bash script
 
-#Requirements
-Vlc player
-Bash based shell (Bash or Zsh or fish🐟 ...etc)
+#Requirements:
+1. Vlc player
+
+2.Bash based shell (Bash or Zsh or fish🐟 ...etc)
 
 #Getting yourself a clone of Bash timer
      
